@@ -1,7 +1,8 @@
 ## Project snapshot
 
 This is a boilerplate project for react-redux-typescript-scss
-Demonstrates how to:
+
+###Demonstrates how to:
 
 1. Setup a redux store
 2. Setup multiple reducers
