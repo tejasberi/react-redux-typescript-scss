@@ -1,4 +1,4 @@
-##Project snapshot
+## Project snapshot
 
 This is a boilerplate project for react-redux-typescript-scss
 Demonstrates how to:
