@@ -3,13 +3,21 @@ import "./index.scss";
 import * as serviceWorker from "./serviceWorker";
 
 import App from "./App";
+import { Provider } from "react-redux";
 import React from "react";
 import ReactDOM from "react-dom";
+import RootReducer from "./redux/reducers";
+import { composeWithDevTools } from "redux-devtools-extension";
+import { createStore } from "redux";
+
+const store = createStore(RootReducer, composeWithDevTools());
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <Provider store={store}>
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>
+  </Provider>,
   document.getElementById("root")
 );
 
