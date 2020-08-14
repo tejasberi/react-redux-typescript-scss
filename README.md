@@ -28,3 +28,6 @@ localhost:3000
 ### How to build a deployable version
 
 `yarn build`
+
+![Screen Shot 2020-08-14 at 4 24 07 pm](https://user-images.githubusercontent.com/16533491/90219998-ab3bf180-de4a-11ea-9bda-462abe745d11.png)
+
