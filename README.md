@@ -19,8 +19,8 @@ In the project directory, you can run:
 
 ### How to run the project?
 
-`yarn start`
-localhost:3000
+1. `yarn start`
+2. localhost:3000
 
 ### How to run unit tests?
 
