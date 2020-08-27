@@ -8,7 +8,7 @@ This is a boilerplate project for react-redux-typescript-scss
 2. Setup multiple reducers
 3. Combine reducers
 4. Dispatch actions from components
-5. Use of redux dev tools
+5. Use of redux dev tools (chrome extension)
 
 In the project directory, you can run:
 
